@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:gabrielcsapo/node-flat-db.git"
+    "url": "git@github.com:TechnotronicOz/node-flat-db.git"
   },
   "author": "Gabriel J. Csapo <gabecsapo@gmail.com>, Matt Carter <carter.matt@icloud.com>",
   "license": "MIT",
