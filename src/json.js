@@ -1,10 +1,10 @@
 'use strict';
 
-var jph = require('json-parse-helpfulerror');
+const jph = require('json-parse-helpfulerror');
 
 module.exports = {
-  parse: jph.parse,
-  stringify: function stringify(obj) {
-    return JSON.stringify(obj, null, 2);
-  }
+    parse: jph.parse,
+    stringify(obj) {
+        return JSON.stringify(obj, null, 2);
+    }
 };

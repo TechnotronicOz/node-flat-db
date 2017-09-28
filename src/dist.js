@@ -1,4 +1,4 @@
 // Entry point for standalone build
-var index = require('./')
+const index = require('./')
 index.localStorage = require('./browser')
 module.exports = index

@@ -1,8 +1,8 @@
 'use strict';
 
-var steno = require('steno');
+const steno = require('steno');
 
-var _require = require('./json');
+const _require = require('./json');
 
 var stringify = _require.stringify;
 

@@ -1,10 +1,10 @@
 'use strict';
 
-var fs = require('graceful-fs');
-var _require = require('./json');
-var parse = _require.parse;
-var stringify = _require.stringify;
-var lzstring = require('lz-string/libs/lz-string');
+const fs = require('graceful-fs');
+const _require = require('./json');
+const parse = _require.parse;
+const stringify = _require.stringify;
+const lzstring = require('lz-string/libs/lz-string');
 
 module.exports = {
     read: function read(source) {
